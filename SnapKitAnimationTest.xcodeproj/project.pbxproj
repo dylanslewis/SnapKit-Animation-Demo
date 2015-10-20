@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC17BD481BD6F359002F6341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17BD471BD6F359002F6341 /* AppDelegate.swift */; };
+		FC17BD4A1BD6F35A002F6341 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17BD491BD6F35A002F6341 /* ViewController.swift */; };
+		FC17BD4D1BD6F35A002F6341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC17BD4B1BD6F35A002F6341 /* Main.storyboard */; };
+		FC17BD4F1BD6F35A002F6341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC17BD4E1BD6F35A002F6341 /* Assets.xcassets */; };
+		FC17BD521BD6F35A002F6341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC17BD501BD6F35A002F6341 /* LaunchScreen.storyboard */; };
+		FC17BD5D1BD6F35A002F6341 /* SnapKitAnimationTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17BD5C1BD6F35A002F6341 /* SnapKitAnimationTestTests.swift */; };
+		FC17BD681BD6F35A002F6341 /* SnapKitAnimationTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17BD671BD6F35A002F6341 /* SnapKitAnimationTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC17BD591BD6F35A002F6341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC17BD3C1BD6F358002F6341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC17BD431BD6F359002F6341;
+			remoteInfo = SnapKitAnimationTest;
+		};
+		FC17BD641BD6F35A002F6341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC17BD3C1BD6F358002F6341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC17BD431BD6F359002F6341;
+			remoteInfo = SnapKitAnimationTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC17BD441BD6F359002F6341 /* SnapKitAnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapKitAnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC17BD471BD6F359002F6341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC17BD491BD6F35A002F6341 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC17BD4C1BD6F35A002F6341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC17BD4E1BD6F35A002F6341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC17BD511BD6F35A002F6341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC17BD531BD6F35A002F6341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC17BD581BD6F35A002F6341 /* SnapKitAnimationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapKitAnimationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC17BD5C1BD6F35A002F6341 /* SnapKitAnimationTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitAnimationTestTests.swift; sourceTree = "<group>"; };
+		FC17BD5E1BD6F35A002F6341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC17BD631BD6F35A002F6341 /* SnapKitAnimationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapKitAnimationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC17BD671BD6F35A002F6341 /* SnapKitAnimationTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitAnimationTestUITests.swift; sourceTree = "<group>"; };
+		FC17BD691BD6F35A002F6341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC17BD411BD6F359002F6341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC17BD551BD6F35A002F6341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC17BD601BD6F35A002F6341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC17BD3B1BD6F358002F6341 = {
+			isa = PBXGroup;
+			children = (
+				FC17BD461BD6F359002F6341 /* SnapKitAnimationTest */,
+				FC17BD5B1BD6F35A002F6341 /* SnapKitAnimationTestTests */,
+				FC17BD661BD6F35A002F6341 /* SnapKitAnimationTestUITests */,
+				FC17BD451BD6F359002F6341 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC17BD451BD6F359002F6341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC17BD441BD6F359002F6341 /* SnapKitAnimationTest.app */,
+				FC17BD581BD6F35A002F6341 /* SnapKitAnimationTestTests.xctest */,
+				FC17BD631BD6F35A002F6341 /* SnapKitAnimationTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC17BD461BD6F359002F6341 /* SnapKitAnimationTest */ = {
+			isa = PBXGroup;
+			children = (
+				FC17BD471BD6F359002F6341 /* AppDelegate.swift */,
+				FC17BD491BD6F35A002F6341 /* ViewController.swift */,
+				FC17BD4B1BD6F35A002F6341 /* Main.storyboard */,
+				FC17BD4E1BD6F35A002F6341 /* Assets.xcassets */,
+				FC17BD501BD6F35A002F6341 /* LaunchScreen.storyboard */,
+				FC17BD531BD6F35A002F6341 /* Info.plist */,
+			);
+			path = SnapKitAnimationTest;
+			sourceTree = "<group>";
+		};
+		FC17BD5B1BD6F35A002F6341 /* SnapKitAnimationTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC17BD5C1BD6F35A002F6341 /* SnapKitAnimationTestTests.swift */,
+				FC17BD5E1BD6F35A002F6341 /* Info.plist */,
+			);
+			path = SnapKitAnimationTestTests;
+			sourceTree = "<group>";
+		};
+		FC17BD661BD6F35A002F6341 /* SnapKitAnimationTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC17BD671BD6F35A002F6341 /* SnapKitAnimationTestUITests.swift */,
+				FC17BD691BD6F35A002F6341 /* Info.plist */,
+			);
+			path = SnapKitAnimationTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC17BD431BD6F359002F6341 /* SnapKitAnimationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC17BD6C1BD6F35A002F6341 /* Build configuration list for PBXNativeTarget "SnapKitAnimationTest" */;
+			buildPhases = (
+				FC17BD401BD6F359002F6341 /* Sources */,
+				FC17BD411BD6F359002F6341 /* Frameworks */,
+				FC17BD421BD6F359002F6341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKitAnimationTest;
+			productName = SnapKitAnimationTest;
+			productReference = FC17BD441BD6F359002F6341 /* SnapKitAnimationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC17BD571BD6F35A002F6341 /* SnapKitAnimationTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC17BD6F1BD6F35A002F6341 /* Build configuration list for PBXNativeTarget "SnapKitAnimationTestTests" */;
+			buildPhases = (
+				FC17BD541BD6F35A002F6341 /* Sources */,
+				FC17BD551BD6F35A002F6341 /* Frameworks */,
+				FC17BD561BD6F35A002F6341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC17BD5A1BD6F35A002F6341 /* PBXTargetDependency */,
+			);
+			name = SnapKitAnimationTestTests;
+			productName = SnapKitAnimationTestTests;
+			productReference = FC17BD581BD6F35A002F6341 /* SnapKitAnimationTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC17BD621BD6F35A002F6341 /* SnapKitAnimationTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC17BD721BD6F35A002F6341 /* Build configuration list for PBXNativeTarget "SnapKitAnimationTestUITests" */;
+			buildPhases = (
+				FC17BD5F1BD6F35A002F6341 /* Sources */,
+				FC17BD601BD6F35A002F6341 /* Frameworks */,
+				FC17BD611BD6F35A002F6341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC17BD651BD6F35A002F6341 /* PBXTargetDependency */,
+			);
+			name = SnapKitAnimationTestUITests;
+			productName = SnapKitAnimationTestUITests;
+			productReference = FC17BD631BD6F35A002F6341 /* SnapKitAnimationTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC17BD3C1BD6F358002F6341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Dylan Lewis";
+				TargetAttributes = {
+					FC17BD431BD6F359002F6341 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					FC17BD571BD6F35A002F6341 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FC17BD431BD6F359002F6341;
+					};
+					FC17BD621BD6F35A002F6341 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FC17BD431BD6F359002F6341;
+					};
+				};
+			};
+			buildConfigurationList = FC17BD3F1BD6F358002F6341 /* Build configuration list for PBXProject "SnapKitAnimationTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC17BD3B1BD6F358002F6341;
+			productRefGroup = FC17BD451BD6F359002F6341 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC17BD431BD6F359002F6341 /* SnapKitAnimationTest */,
+				FC17BD571BD6F35A002F6341 /* SnapKitAnimationTestTests */,
+				FC17BD621BD6F35A002F6341 /* SnapKitAnimationTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC17BD421BD6F359002F6341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC17BD521BD6F35A002F6341 /* LaunchScreen.storyboard in Resources */,
+				FC17BD4F1BD6F35A002F6341 /* Assets.xcassets in Resources */,
+				FC17BD4D1BD6F35A002F6341 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC17BD561BD6F35A002F6341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC17BD611BD6F35A002F6341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC17BD401BD6F359002F6341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC17BD4A1BD6F35A002F6341 /* ViewController.swift in Sources */,
+				FC17BD481BD6F359002F6341 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC17BD541BD6F35A002F6341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC17BD5D1BD6F35A002F6341 /* SnapKitAnimationTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC17BD5F1BD6F35A002F6341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC17BD681BD6F35A002F6341 /* SnapKitAnimationTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC17BD5A1BD6F35A002F6341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC17BD431BD6F359002F6341 /* SnapKitAnimationTest */;
+			targetProxy = FC17BD591BD6F35A002F6341 /* PBXContainerItemProxy */;
+		};
+		FC17BD651BD6F35A002F6341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC17BD431BD6F359002F6341 /* SnapKitAnimationTest */;
+			targetProxy = FC17BD641BD6F35A002F6341 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC17BD4B1BD6F35A002F6341 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC17BD4C1BD6F35A002F6341 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC17BD501BD6F35A002F6341 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC17BD511BD6F35A002F6341 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC17BD6A1BD6F35A002F6341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC17BD6B1BD6F35A002F6341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC17BD6D1BD6F35A002F6341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnapKitAnimationTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dylanslewis.SnapKitAnimationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC17BD6E1BD6F35A002F6341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnapKitAnimationTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dylanslewis.SnapKitAnimationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC17BD701BD6F35A002F6341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnapKitAnimationTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dylanslewis.SnapKitAnimationTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapKitAnimationTest.app/SnapKitAnimationTest";
+			};
+			name = Debug;
+		};
+		FC17BD711BD6F35A002F6341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnapKitAnimationTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dylanslewis.SnapKitAnimationTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapKitAnimationTest.app/SnapKitAnimationTest";
+			};
+			name = Release;
+		};
+		FC17BD731BD6F35A002F6341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnapKitAnimationTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dylanslewis.SnapKitAnimationTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnapKitAnimationTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FC17BD741BD6F35A002F6341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnapKitAnimationTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dylanslewis.SnapKitAnimationTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnapKitAnimationTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC17BD3F1BD6F358002F6341 /* Build configuration list for PBXProject "SnapKitAnimationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC17BD6A1BD6F35A002F6341 /* Debug */,
+				FC17BD6B1BD6F35A002F6341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC17BD6C1BD6F35A002F6341 /* Build configuration list for PBXNativeTarget "SnapKitAnimationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC17BD6D1BD6F35A002F6341 /* Debug */,
+				FC17BD6E1BD6F35A002F6341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC17BD6F1BD6F35A002F6341 /* Build configuration list for PBXNativeTarget "SnapKitAnimationTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC17BD701BD6F35A002F6341 /* Debug */,
+				FC17BD711BD6F35A002F6341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC17BD721BD6F35A002F6341 /* Build configuration list for PBXNativeTarget "SnapKitAnimationTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC17BD731BD6F35A002F6341 /* Debug */,
+				FC17BD741BD6F35A002F6341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC17BD3C1BD6F358002F6341 /* Project object */;
+}
